@@ -121,3 +121,7 @@ This project was created with the joint effort of [S13] Digimap - Group 11.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Code References
+- [Background removal with OpenCV (AKA segmentation) - Munawwar Firoz](https://www.codepasta.com/2016/11/06/background-segmentation-removal-with-opencv)
+- [OpenCV Documentation](https://docs.opencv.org/4.x/index.html)
