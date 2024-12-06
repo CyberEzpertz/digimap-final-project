@@ -103,16 +103,16 @@ These were then used in the calculation of the following metrics:
 
 | **Algorithm** | **Accuracy (%)** | **Specificity (%)** | **Sensitivity (%)** | **Ave. Execution Time** |
 |---------------|------------------:|---------------------:|---------------------:|-------------------------:|
-| **Canny**     | 49.84%           | 43.06%              | 55.95%              | 2.75ms                  |
-| **Sobel**     | 49.45%           | 42.04%              | 56.56%              | 9.20ms                  |
-| **Scharr**    | 49.75%           | 42.15%              | 56.93%              | 10.68ms                 |
-| **Laplace**   | 46.05%           | 34.54%              | 56.01%              | 3.68ms                  |
+| **Canny**     | 49.84%           | 43.06%              | 55.96%              | 2.76ms                  |
+| **Sobel**     | 49.45%           | 42.04%              | 56.56%              | 3.97ms                  |
+| **Scharr**    | 49.75%           | 42.15%              | 56.93%              | 5.38ms                 |
+| **Laplace**   | 41.90%           | 24.48%              | 59.85%              | 1.12ms                  |
 
-Based on these values, we can see that the Canny has the fastest time, highest accuracy, highest specificity, but it has the lowest sensitivity. On the other hand, Laplace has the lowest accuracy and specificity, which indicates that its masking was the most inaccurate out of all, with the background possibly being included in most of its results. 
+Based on these values, we can see that the Canny has the fastest time, highest accuracy, highest specificity, but it has the lowest sensitivity. On the other hand, Laplace has the lowest accuracy and specificity by a large margin, which indicates that its masking was the most inaccurate out of all, with the background being included in most of its results. However, it does have the highest sensitivity and fast execution time, so in essence, it is exchanging time for accuracy. 
 
-Scharr had the highest execution time out of all the results, while also being the most sensitive out of all the algorithms. Additionally, it is the second in accuracy and specificity. Lastly, Sobel is third in all categories except sensitivity, though the jump in execution time is somewhat large.
+Scharr has the longest execution time, however it consistenly comes in at second place in every other metric. Lastly, Sobel is third in all categories, being faster than Scharr, essentially trading time for accuracy once again, but not by a large margin.
 
-Overall, these results indicate that it is possibly best to use Canny for quick and accurate results, while Laplace is unrecommended due to its quick but inaccurate results. If time is of no issue, Scharr or Sobel may possibly be considered.
+Overall, these results indicate that it is possibly best to use Canny for quick and accurate results, while Laplace is unrecommended due to its quick but inaccurate results. If time is of no issue, Scharr or Sobel may possibly be considered due to their consistent performance.
 
 
 ## Contributors
