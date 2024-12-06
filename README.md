@@ -1,6 +1,6 @@
 # Image Segmentation using Edge Detection Algorithms
 
-This project explores image segmentation using various edge detection algorithms, namely **Canny**, **Sobel**, **Scharr**, and **Laplace**, to highlight boundaries and structures in images. Additionally, this project compares the algorithms in terms of performance with regards to masking an image's foreground.
+This project explores image segmentation using various edge detection algorithms, namely **Canny**, **Sobel**, **Scharr**, and **Laplace** to separate the background and foreground of an image. Additionally, this project compares the algorithms in terms of performance with regards to masking an image's foreground.
 
 
 ## Overview
@@ -21,6 +21,12 @@ This project uses images from the following dataset from Kaggle:
 
 ### Other Algorithms Used
 1. **Savitzky-Golay Filter** - A digital filter used to smoothen data points. This is used to smoothen the contours for the mask.
+
+### General Algorithm Flow
+The flow below is applied to every algorithm except Canny since it has a built-in RGB channel handler. 
+
+![image](https://github.com/user-attachments/assets/87e815e0-9053-42b4-b4a0-ef1212e44ce4)
+
 
 ## Setup & Installation
 
