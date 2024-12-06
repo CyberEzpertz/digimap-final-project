@@ -5,7 +5,7 @@ This project explores image segmentation using various edge detection algorithms
 
 ## Overview
 
-This project uses image segmentation techniques in OpenCV's library in order to remove the backgrounds of images or blur them. This is done with the use of edge detection algorithms, whose results are then used to find the most significant top-level contour of the image. This contour is then used to create the mask that will be used to segment the image's background and foreground, either removing or blurring the former.
+This project uses image segmentation functions from OpenCV's library in order to remove the backgrounds of images or blur them inside a Jupyter Notebook. This is done with the use of edge detection algorithms, whose results are then used to find the most significant top-level contour of the image. This contour is then used to create the mask that will be used to segment the image's background and foreground, either removing or blurring the former.
 
 Performance was also measured across the four algorithms, measuring their average execution time, accuracy, specificity, and sensitivity. This was done with the help of ground truth masks, which were created using the background-removed dataset images created with the use of a 3rd-party image editing software. 
 
@@ -33,7 +33,7 @@ The flow below is applied to every algorithm except Canny since it has a built-i
 Clone this repository to your local machine:
 
 ```sh
-git clone https://github.com/your-username/image-segmentation-edge-detection.git
+git clone https://github.com/CyberEzpertz/digimap-final-project.git
 ```
 
 Once done, you will need to install the required libraries.
