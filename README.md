@@ -17,7 +17,7 @@ This project uses images from the following dataset from Kaggle:
 1. **Canny Edge Detector**: A multi-stage algorithm that detects a wide range of edges in images while minimizing noise.
 2. **Sobel Operator**: A gradient-based method used to compute the approximation of the gradient of image intensity.
 3. **Scharr Operator**: Similar to Sobel, but uses a different kernel for better edge detection.
-4. **Laplacian Operator**: Detects edges by looking at regions where the intensity function changes rapidly.
+4. **Laplace Operator**: Detects edges by looking at regions where the intensity function changes rapidly.
 
 ### Other Algorithms Used
 1. **Savitzky-Golay Filter** - A digital filter used to smoothen data points. This is used to smoothen the contours for the mask.
