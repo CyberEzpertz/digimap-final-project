@@ -1,4 +1,4 @@
-# Image Segmentation using Edge Detection Algorithms
+# Image Segmentation using Various Edge Detection Algorithms
 
 This project explores image segmentation using various edge detection algorithms, namely **Canny**, **Sobel**, **Scharr**, and **Laplace** to separate the background and foreground of an image. Additionally, this project compares the algorithms in terms of performance with regards to masking an image's foreground.
 
