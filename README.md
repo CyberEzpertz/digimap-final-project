@@ -38,11 +38,26 @@ git clone https://github.com/CyberEzpertz/digimap-final-project.git
 
 Once done, you will need to install the required libraries.
 
+### Libaries Used
+
+To install the libraries easily, you can run the following line of code.
+
 ```sh
 pip install requirements.txt
 ```
 
-After, open up the [Final Project](final_project.ipynb) file and run all of the code blocks.
+The project's libraries are listed inside `requirements.txt`. However, if you want to install them yourself, here are the main dependencies and their purpose.
+- `opencv-python` - Used for the edge detection algorithms and image processing functions.
+- `numpy` - Used for various pre-processing inside the algorithms. Also a dependency for `opencv-python`.
+- `matplotlib` - Used to help visualize and plot the images and data inside the notebook.
+- `seaborn` - Used for its color palettes to go with `matplotlib`'s plots.
+- `scipy` - Used for its implementation of Savitzky-Golay filter to help smooth out contour curvature.
+- `pandas` - Used to better display tables inside the notebook.
+- `ipykernel` - Kernel used for Jupyter Notebook
+
+Additonally, make sure you have Jupyter Notebook installed, or VSCode with the Jupyter extension to interact with the notebook itself.
+
+Lastly, open up the [Final Project](final_project.ipynb) file and run all of the code blocks.
 
 ## Folder Structure
 This project uses 2 folders for its input, with the rest being the outputs.
